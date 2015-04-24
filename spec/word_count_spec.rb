@@ -15,5 +15,8 @@ describe('String#.word_counter') do
     end
 
   #it counts how many times a word is within a sentence
+    it("takes a given word and a sentence returns the number of times that word appears within the sentence") do
+      expect("the dog is brown, brown".word_count("brown")).to(eq(2))
+    end
 
 end
