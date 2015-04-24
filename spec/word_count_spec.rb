@@ -10,6 +10,9 @@ describe('String#.word_counter') do
     end
 
   #it takes a word and finds it within a sentence
+    it("takes a given word and returns true if word is within sentence") do
+      expect("the dog is brown".word_counter("dog")).to(eq(true))
+    end
 
   #it counts how many times a word is within a sentence
 
