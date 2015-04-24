@@ -4,13 +4,13 @@ class String
     sentence_array = input_sentence.split(/\W+/)
     counter = 0
 
-    sentence_array.each() do |compare_word|
-      if compare_word == input_word.downcase
-          counter = counter.+(1)
-      else
-      end
+        sentence_array.each() do |compare_word|
+          if compare_word == input_word.downcase
+              counter = counter.+(1)
+          else
 
-    end
+          end
+        end
     return counter
   end
 
